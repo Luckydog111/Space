@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;400;700&family=Roboto&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFF;
+    letter-spacing: 0.0120588em;
+    margin-top: 25vh;
+}
+
+.personal-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFF;
+    width: 240px;
+    height: 46px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.enter:hover {
+    opacity: 1;
+}
+
+.register {
+    width: 340px;
+    height: 60px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    background: #F6DB80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: -0.0241176em;
+    margin-top: 22px;
+    opacity: 0.9;
+}
+
+.emptydiv {
+    flex: 1 1 28vh;
+}
+
+.register:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.interesting {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 65px;
+    background: #F6DB80;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    border: 1px solid white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 38px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 320px;
+    height: 32px;
+    background-color: #FFF;
+    color: #ACACAC;
+    opacity: 0.9;
+    outline: none;
+}
+
+input[type="text"]:focus{
+    color: #000;
+    border: 1px solid white; 
+    outline: none;
+}
